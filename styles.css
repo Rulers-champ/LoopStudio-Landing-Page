@@ -1,0 +1,144 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+header{
+	padding :2rem 10rem;
+	height:30rem;
+	background-image: url("images/desktop/image-hero.jpg");
+	background-size: cover;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.navbar h2{
+	font-family:'Dosis', sans-serif;
+	font-size:1.8rem;
+	color:#fff;
+}
+.navbar-menu-item{
+	padding-left: 2rem;
+	font-family: 'Dosis', sans-serif;
+	color:#fff;
+}
+.tagline{
+	width:40rem;
+	margin-top: 8rem;
+	border:1px solid #fff;
+	padding: 1.5rem 2.4rem;
+}
+.tagline h1{
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	font-size:3rem;
+	font-weight: 300;
+	letter-spacing: 5px;
+}	 
+.main-section{
+	padding:5rem 10rem;
+	position: relative;
+}
+.main-section img{
+	width:60rem;
+	height:40rem;
+}
+.main-section-block{
+	background-color: #fff;
+	width:25rem;
+	position: absolute;
+	top:25rem;
+	right:10rem;
+	padding:4rem 0rem 4rem 5rem;
+}
+.main-section-block h4{
+   font-family: 'Lato', sans-serif;
+   font-size: 3rem;
+   color:#000;
+   letter-spacing: 4px;
+
+}
+.main-section-text{
+	padding-top: 1.5rem;
+}
+.main-section-text h6{
+	color:#333;
+	font-size: 1rem;
+	font-family: 'Dosis', sans-serif;
+}
+.creation-block{
+	padding: 2rem 10rem;
+}
+.image-grid-text-block{
+	padding-bottom: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.image-grid-text-block h4{
+	font-family:'Dosis', sans-serif; ;
+	font-size: 1.9rem;
+	letter-spacing: 2px;
+	font-weight: 1000;
+}
+.btn{
+	padding:0.7rem 1.2rem;
+	font-family: 'Lato', sans-serif;
+	color:#000;
+	letter-spacing: 3px;
+	font-size: 0.6rem;
+	border:1px solid #000;
+	border-radius: 5px;
+}
+.image-grid{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem
+}
+.image-container{
+	position: relative;
+}
+.image-container img{
+    display: block;
+    width:100%;
+    opacity: 90%;
+    
+   
+}
+.image-text{
+	position: absolute;
+	bottom:1.5rem;
+	left:3.2rem;
+    font-family: 'Lato', sans-serif;
+	font-size: 2.5rem;
+	
+	color:#fff;
+	
+}
+footer{
+	padding:2rem 10rem;
+	background-color: #000;
+	color:#fff;
+}
+.footer-first-row, .footer-second-row{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 2rem;
+}	
+.footer-first-row h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5rem;
+}
+
+.footer-icon{
+	padding-left: 0.7rem;
+}
+.footer-menu-item{
+	padding-right: 0.7rem;
+	font-family: 'Dosis', sans-serif;
+	font-size:1rem;
+}
